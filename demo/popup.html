@@ -1,0 +1,20 @@
+﻿<html>
+<head>
+    <title>page</title>
+    <link rel="stylesheet" href="cc.css">
+</head>
+<body>
+    <form action="UserMan.jsp" id="form1" name="form1" method="post">
+        <fieldset>
+            <legend>摘要:</legend>
+            *内容:
+            <textarea id="zh" name="zh" onblur="zhcs()" placeholder="请输入内容" style="height:100px"></textarea>
+            <br />
+            <input name="确认" type="button" value="确认" /><br/>
+            *结果:
+            <textarea id="yx" name="yx" onblur="yxcs()" placeholder="摘要结果" style="height:100px"></textarea>
+            <br />
+        </fieldset>
+    </form>
+</body>
+</html>
