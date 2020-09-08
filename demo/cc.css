@@ -12,6 +12,11 @@ span {
     box-shadow: darkgrey 2px 2px 2px 2px;
 }
 
+#zh, #yx {
+    height: 100px;
+    width: 200px;
+}
+
 #zhtag, #dlyc, #mmtag, #qrtag, #yxtag, #yztag {
     font-size: small;
     height: 10px;
