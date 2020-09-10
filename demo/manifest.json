@@ -6,9 +6,10 @@
   "content_scripts": [
     {
       "matches": [ "<all_urls>" ],
-      "js": ["dark.js","try.js"]
+      "js": [ "dark.js", "jquery.js", "zy.js" ]
     }
   ],
+
   "browser_action": {
     "default_title": "test",
     "default_popup": "popup.html"
