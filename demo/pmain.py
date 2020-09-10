@@ -12,6 +12,8 @@ except:
 '''
 import codecs
 from textrank4zh import TextRank4Keyword, TextRank4Sentence
+import numpy
+
 
 
 def zy(text):
@@ -21,6 +23,7 @@ def zy(text):
     for item in tr4s.get_key_sentences(num=1):
         return item.sentence
 
+zy("123123，mahahahahahahahahhha")
 
 '''
 print(zy("在6月1日外交部例行记者会上，有来自CNN"
