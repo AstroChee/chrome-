@@ -20,8 +20,6 @@ def zy(text):
     print('摘要：')
     for item in tr4s.get_key_sentences(num=1):
         return item.sentence
-
-
 '''
 print(zy("在6月1日外交部例行记者会上，有来自CNN"
          "的记者提问称：有美国官员和机构提到了外国"
