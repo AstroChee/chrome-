@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "test-test",
+  "version": "0.0.1",
+  "description": "IDK what to say",
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "css": ["cc.css"]
+    }
+  ],
+
+  "background": {
+    "scripts": [
+      "jquery.js",
+      "zy.js"
+    ]
+  },
+
+  "browser_action": {
+    "default_title": "test",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "http://127.0.0.1:8989/text"
+  ]
+}
