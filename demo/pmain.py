@@ -22,12 +22,8 @@ def zy(text):
     print('摘要：')
     for item in tr4s.get_key_sentences(num=1):
         return item.sentence
-<<<<<<< HEAD
-=======
 
-zy("123123，mahahahahahahahahhha")
 
->>>>>>> d02ef5f56b91f73c10f4f0374266bddce5797bc4
 '''
 print(zy("在6月1日外交部例行记者会上，有来自CNN"
          "的记者提问称：有美国官员和机构提到了外国"
