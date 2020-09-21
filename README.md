@@ -1,2 +1,2 @@
-# fatties
-可用内容在usable文件夹中，后续可能继续尝试手机端
+# 文本摘要chrome浏览器扩展
+可用内容在useable文件夹中，摘要使用textrank4zh，前后端采用ajax、flask连接，后续可能继续尝试手机端
