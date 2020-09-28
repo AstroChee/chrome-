@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "fatties摘要",
+  "version": "0.3.1",
+  "description": "一个目前基于textrank4zh的文本摘要扩展，前后端通过ajax及flask连接",
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "content.js" ]
+    }
+  ],
+
+  "background": {
+    "scripts": [
+      "jquery.js",
+      "zy.js",
+      "click.js"
+    ]
+  },
+
+  "browser_action": {
+    "default_title": "fatties摘要",
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "contextMenus",
+    "http://127.0.0.1:8989/text"
+  ]
+}
